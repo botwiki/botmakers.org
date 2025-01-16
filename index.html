@@ -39,29 +39,34 @@
   <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <link rel="stylesheet"
-    href="libs/bootstrap/css/bootstrap.min.css">
+    class="text-body-emphasis" href="libs/bootstrap/css/bootstrap.min.css">
   <meta name="msapplication-TileColor"
     content="#FFFFFF">
   <meta name="msapplication-TileImage"
     content="images/favicon-144.png">
   <link rel="shortcut icon"
-    href="images/favicon.ico" />
+    class="text-body-emphasis" href="images/favicon.ico" />
   <link rel="apple-touch-icon"
-    href="images/favicon-152.png">
+    class="text-body-emphasis" href="images/favicon-152.png">
   <link rel="apple-touch-icon-precomposed"
-    href="images/favicon-152.png">
+    class="text-body-emphasis" href="images/favicon-152.png">
   <link rel="icon"
-    href="images/favicon-32.png"
+    class="text-body-emphasis" href="images/favicon-32.png"
     sizes="32x32">
   <link rel="icon"
     type="image/png"
-    href="images/favicon-64.png">
-  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Merriweather+Sans|Lobster"
+    class="text-body-emphasis" href="images/favicon-64.png">
+  <link class="text-body-emphasis" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Merriweather+Sans|Lobster"
     rel="stylesheet"
     type="text/css">
+    <style>
+    .container{
+      max-width: 840px;
+    }
+    </style>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 fs-5">
   <script>
     const toggleDarkMode = (enabled) => {
       if (enabled) {
@@ -82,36 +87,37 @@
 
   <main class="flex-shrink-0">
     <div class="container">
-      <p class="alert alert-info mt-5">🆕 We're <a href="https://mastodon.social/@botwiki/113828353032643518">moving to Discourse</a>! <a href="https://botmakers.discourse.group/">Join us!</a></p>
-      <h1 class="mt-5">Botmakers 🎨🤖</h1>
-      <p class="lead">A safe and inclusive place to discuss <a href="https://botwiki.org/bots/">fun and creative online bots</a> and learn
+      <h1 class="fs-1 my-5">Botmakers 🎨🤖</h1>
+      <p>A <a class="text-body-emphasis" href="https://botmakers.discourse.group/pub/welcome-to-botmakers">private, safe, and inclusive</a>
+        place to discuss <a class="text-body-emphasis" href="https://botwiki.org/bots/">fun and creative online bots</a> and learn
         how to make them.</p>
-      <p>We help each other and <a href="https://botwiki.org/coc/">treat each other with respect</a>.</p>
-      <p>
-        <a class="btn btn-dark"
-          href="https://join.slack.com/t/botmakers/shared_invite/zt-1s2by9z4x-DU6zyuTaQ4Gyiyfe40H4eg">Join us on <img
+      <p class="my-5">
+        <a class="fs-5 btn btn-outline-secondary text-body-emphasis"
+           href="https://botmakers.discourse.group/">Join us on <img
             height="20px"
-            class="logo-slack"
-            src="/images/slack_monochrome_white.svg"></a>
+            class="logo-discourse"
+            src="/images/discourse-color.svg"> Discourse</a>
       </p>
-      <p>Already member? <a href="https://botmakers.slack.com/messages">Log in here.</a></p>
       <p>
-        And if <a href="https://discord.com/">Discord</a> is more your thing, check out <a
-          href="https://discord.gg/3YDSrdu6kh">The Bot Park</a>, run by <a href="https://www.patreon.com/norareed">Nora
-          Reed</a>, the creator of <a href="https://botwiki.org/bot/infinite_scream/">@infinite_scream</a>, and many other iconic bots.
+        And if <a class="text-body-emphasis" href="https://discord.com/">Discord</a> is more your thing, check out <a
+          class="text-body-emphasis" href="https://discord.gg/3YDSrdu6kh">The Bot Park</a>, run by <a class="text-body-emphasis" href="https://www.patreon.com/norareed">Nora
+          Reed</a>, the creator of <a class="text-body-emphasis" href="https://botwiki.org/bot/infinite_scream/">@infinite_scream</a>, and many
+        other iconic bots.
       </p>
     </div>
   </main>
-  <footer class="footer mt-auto py-3 bg-body">
+  <footer class="footer mt-auto py-3 bg-body fs-6">
     <div class="container">
-      <span class="text-muted">
-        Botmakers is the official <a href="https://botwiki.org/">Botwiki</a> community, maintained by the <a
-          href="https://botwiki.org/about/team/">Botwiki team</a> and hosted by <a
-          href="https://slack.com/is">Slack</a>. All members must read and follow our <a
-          href="https://botwiki.org/coc/">Code of Conduct</a>. Any questions? Need help? <a
-          href="https://botwiki.org/about/contact/">Here's how to get in touch.</a>
-        <!--  And check out the <a href="https://github.com/botwiki/botmakers.org/blob/master/BOTS.md">bots we're playing with</a> :-) -->
-      </span>
+      <p class="text-muted">
+        Botmakers is the official <a class="text-body-emphasis" href="https://botwiki.org/">Botwiki</a> community, maintained by the <a
+        class="text-body-emphasis" href="https://botwiki.org/about/team/">Botwiki team</a> and hosted by <a
+        class="text-body-emphasis" href="https://www.discourse.org/">Discourse</a>. All members must read and follow our <a
+        class="text-body-emphasis" href="https://botmakers.discourse.group/pub/welcome-to-botmakers">Community Guidelines</a>. Any questions?
+        Need help? <a class="text-body-emphasis" href="https://botwiki.org/about/contact/">Here's how to get in touch.</a>
+      </p>
+      <p class="text-muted">
+        Looking for our <a class="text-body-emphasis" href="https://join.slack.com/t/botmakers/shared_invite/zt-1s2by9z4x-DU6zyuTaQ4Gyiyfe40H4eg">old Slack group</a>? <a class="text-body-emphasis" href="https://botmakers.slack.com/messages">Log in here.</a>
+      </p>
     </div>
   </footer>
   <!-- Matomo -->
